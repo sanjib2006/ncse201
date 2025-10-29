@@ -531,7 +531,7 @@ int main()
 
 ```
 
-*ouput* infinite loop printing
+*output* infinite loop printing
 ``` bash
 Inside my unexpected
 Inside my unexpected
