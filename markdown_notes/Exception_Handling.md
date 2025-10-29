@@ -545,3 +545,10 @@ Inside my unexpected
 Inside my unexpected
 ...
 ```
+
+### since dynamic throw of function is depreciated in c++11
+
+- use the `noexcept` specifier for that 
+- `noexcept(expression)` the expression is a bool value either true or false 
+- true - no exception is thrown
+- false - might throw exception if occurs
