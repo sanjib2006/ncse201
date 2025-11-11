@@ -47,16 +47,16 @@ loc loc::operator+=(loc op2){
 
 loc loc::operator++(){
     //this is for prefix 
-    longitude++;
-    latitude++;
+    ++longitude;
+    ++latitude;
     return *this;
 }
 
-loc loc::operator++(int x){
-    //this is for prefix 
-    longitude++;
-    latitude++;
-    return *this;
+loc loc::operator++(int){
+    //this is for postfix
+    loc temp = *this;
+    ++(*this);
+    return temp;
 }
 
 int main(){
@@ -75,10 +75,14 @@ int main(){
     ob1+=ob2;
     ob2.show();
     ob1.show();
-    ++ob1;
+    loc ob3;
+    ob3 = (++ob1);
     ob1.show();
-    ob1++;
+    ob3.show();
+    
+    ob3 = (ob1++);
     ob1.show();
+    ob3.show();
     return 0;
 }
 

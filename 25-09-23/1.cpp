@@ -2,7 +2,7 @@
 /*
 - Closely related with function overloading
 - Most of the operators can be overloaded to perform special operations 
-- Your overload operator by creating operator functions 
+- You overload operator by creating operator functions 
 - An operator funciton is created using operator keyword 
 - 
 General Syntax for Operator Overloading:
