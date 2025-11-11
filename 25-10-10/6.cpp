@@ -37,8 +37,7 @@ int main()
         "Howareyou",
         "abbasLovesSweet",
         "sher",
-        "nm",
-        "ranishWaalaTA",
+        "RanishWaalaTA",
     };
 
     bubblesort(sarr, 5);

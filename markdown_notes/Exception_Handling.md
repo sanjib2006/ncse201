@@ -533,6 +533,7 @@ int main()
 
 *output* infinite loop printing
 ``` bash
+Inside dummy throw
 Inside my unexpected
 Inside my unexpected
 Inside my unexpected

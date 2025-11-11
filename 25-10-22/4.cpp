@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void Xhandler(int test) throw()
+void Xhandler(int test) throw(int, char, double)
 {
     if (test == 0)
         throw test;
@@ -16,7 +16,7 @@ int main()
     cout << "Start\n";
     try
     {
-        Xhandler(0);
+        Xhandler(2);
     }
     catch (int i)
     {
